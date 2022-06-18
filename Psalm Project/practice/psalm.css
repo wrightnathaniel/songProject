@@ -1,0 +1,128 @@
+@keyframes startRed {
+    0% {color: red;}
+    20% {color: orange;}
+    40% {color: yellow;}
+    60% {color: green;}
+    80% {color: blue;}
+    100% {color: purple;}
+}
+@keyframes startOrange {
+    0% {color: orange;}
+    20% {color: yellow;}
+    40% {color: green;}
+    60% {color: blue;}
+    80% {color: purple;}
+    100% {color: red;}
+}
+@keyframes startYellow {
+    0% {color: yellow;}
+    20% {color: green;}
+    40% {color: blue;}
+    60% {color: purple;}
+    80% {color: red;}
+    100% {color: orange;}
+}
+@keyframes startGreen {
+    0% {color: green;}
+    20% {color: blue;}
+    40% {color: purple;}
+    60% {color: red;}
+    80% {color: orange;}
+    100% {color: yellow;}
+}
+@keyframes startBlue {
+    0% {color: blue;}
+    20% {color: purple;}
+    40% {color: red;}
+    60% {color: orange;}
+    80% {color: yellow;}
+    100% {color: green;}
+}
+@keyframes startPurple {
+    0% {color: purple;}
+    20% {color: red;}
+    40% {color: orange;}
+    60% {color: yellow;}
+    80% {color: green;}
+    100% {color: blue;}
+}
+#startRedOne, #startRedTwo, #startRedThree, #startRedFour, #startRedFive {
+    color: red;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startRed;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#startOrangeOne, #startOrangeTwo, #startOrangeThree, #startOrangeFour, #startOrangeFive {
+    color: orange;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startOrange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#startYellowOne, #startYellowTwo, #startYellowThree, #startYellowFour, #startYellowFive {
+    color: yellow;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startYellow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#startGreenOne, #startGreenTwo, #startGreenThree, #startGreenFour {
+    color: green;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startGreen;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#startBlueOne, #startBlueTwo, #startBlueThree, #startBlueFour {
+    color: blue;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startBlue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#startPurpleOne, #startPurpleTwo, #startPurpleThree, #startPurpleFour {
+    color: purple;
+    text-align: center;
+    margin: 0px;
+    font-size: 2vw;
+    animation-name: startPurple;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#mainPanel {
+    background-color: black;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+
+/* @keyframes musicNotes {
+    from {color: black;}
+    to {color: white;}
+}
+#backgroundMusicNotes {
+    animation-name: musicNotes;
+    animation-duration: 5s;
+}
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+height: 100vh; */
